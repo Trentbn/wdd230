@@ -1,0 +1,44 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+header, nav, main, footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+header,footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 1.1rem;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    
+}
+p img {
+    float: right;
+    margin: 10px;
+    border: 1px solid #000;
+}
+
+h1 {
+    grid-column: 2/3;
+    align-self: center;
+    justify-self: left;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+img {
+    max-height: 400px;
+    grid-column: 1 / 2;
+    justify-self: left;
+}
