@@ -1,6 +1,14 @@
-@media only screen and (max-width: 32.5em) {
+@media only screen and (max-width: 900px) {
     main {
     grid-template-columns: 1fr 1fr;
+    }
+
+    section:nth-child(3) {
+        grid-column: span 2;
+    }
+
+    img {
+        margin: auto;
     }
 
 }
