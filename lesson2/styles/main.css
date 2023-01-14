@@ -1,0 +1,44 @@
+body {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+header, footer {
+    background-color: rgb(140, 156, 199);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1em;
+}
+
+
+h1, h2 {
+    margin: 20px  20px ;
+}
+
+h3 {
+    background-color: rgb(134, 126, 87);
+    margin-top: 0;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+section {
+    background-color: rgb(191, 180, 125);
+    border-radius: 5px;
+}
+
+p, img {
+    padding: 1em;
+}
+
+img {
+    max-width: 300px;
+}
+

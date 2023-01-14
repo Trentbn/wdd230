@@ -16,18 +16,15 @@ header,footer {
 }
 
 header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
     
 }
-p img {
-    float: right;
-    margin: 10px;
-    border: 1px solid #000;
+
+p, li  {
+font-family: 'Tajawal', sans-serif;
 }
 
 h1 {
+    font-size: 1.3em;
     grid-column: 2/3;
     align-self: center;
     justify-self: left;
@@ -37,8 +34,12 @@ h2 {
     text-decoration: underline;
 }
 
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
 img {
-    max-height: 400px;
-    grid-column: 1 / 2;
-    justify-self: left;
+    max-height: 200px;
+    border: 15px;
+    box-shadow: 0 0 30px rgb(0, 0, 53);
 }
