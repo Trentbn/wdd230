@@ -1,0 +1,22 @@
+@media only screen and (min-width: 32.5em)
+{
+   nav ul 
+    {
+        flex-direction: row;    
+    }
+
+   nav ul li {
+        flex: 1 1 auto;
+    }
+    
+    .colors {
+        flex-direction: row;
+        flex: 1 1 auto;
+        margin: auto;
+    }
+
+    .colors div {
+        width: 70%;
+    }
+
+}
