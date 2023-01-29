@@ -7,41 +7,60 @@
     <title>The Mountain Chamber of Commerce</title>
     <link href="styles/small.css" rel="stylesheet main"/>
     <link href="styles/medium.css" rel="stylesheet medium"/>
+    <link href="styles/large.css" rel="stylesheet large"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans:ital@1&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
-<header>
-    <h1>The Mountain Chamber of Commerce</h1>
-</header>
+    <header>
+        <img src="images/mountain_logo.png" alt="Mountain Logo">
+        <h1>The Mountain</h1>
+        <p>Chamber of Commerce</p>
+        <a href="#"><img class= "socials"src="images/insta_logo_2.png" alt="Instagram logo"></a>
+        <a href="#"><img class= "socials"src="images/facebook_logo.png" alt="Facebook logo"></a>
+    </header>
+
     <nav>
-        <ul>
-            <li><a href= index.html class="active">Home</a></li>
-            <li><a href = target-audience.html>Audience</a></li>
-            <li><a href = design.html>Design</a></li>
+        <button id="hamburger"><span>&#9776;</span><span>X</span></button>
+
+        <ul id="primaryNav">
+            <li><a href= # class="active">Home</a></li>
+            <li><a href = #>Audience</a></li>
+            <li><a href = #>Design</a></li>
+            <li><a href = #>Design</a></li>
         </ul>
     </nav>
 
-<main>
-    <h2>Site Purpose</h2>
-    <p>The purpose of this site is to support small businesses In Utah Valley.  The Mountain Chamber of Commerce 
-        helps the community through keeping business alive and thriving via networking, sponsorships, and holding 
-        events to promote business opportunities. 
-    </p>
+    <main>
+        <section id="hero">Hero with site name and call to action</section>
+        <section id="event">Event</section>
+        <section id="weather">Weather</section>
+        <section id="news">News Release</section>
+        <section id="spotlights">
+            <div>Spotlight 1</div>
+            <div>Spotlight 2</div>
+            <div id="spotlight3">Spotlight 3</div>
+        </section>
+        <section id="join">Join</section>
 
-    <h2>Our Logo</h2>
-    <img src="images/mountain_logo.png" alt="Logo">
-</main>
+    </main>
 
 <footer>
+    <img src="images/mountain_logo.png" alt="Mountain Logo">
+    <h3>The Mountain Chamber of Commerce</h3>
+    <p id="address">10 Rue De La Paix Timbuktu, Mali 999</p>
+    <p id="email">info@timbuktucc.org</p>
+    <p>(702) 123-4566</p>
+    <p id="location">Location Map</p>
     &copy; <span id="currentyear"></span> | Trent B. Nelson | Utah
     <div>Last Updated:<span id="lastupdated"></span></div>
   </footer>
 
   <script src="scripts/app.js"></script>
+    
+
     
 </body>
 </html>

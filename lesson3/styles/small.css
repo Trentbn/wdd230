@@ -1,0 +1,140 @@
+body 
+{
+    font-size: 18px;
+    line-height: 2em;
+    background-color: #B7B7A4;
+    margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+
+header, footer 
+{
+    padding: 2em;
+    background-color: #6B705C;
+    color: #FFE8D6;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header 
+{
+    border-radius: 10px 10px 0 0 ;
+}
+
+a:hover
+{
+    background-color: #6B705C;
+    color: #FFE8D6;
+    border-radius: 0 0 10px 10px;
+}
+
+.active 
+{
+    background-color: #A5A58D;
+    color: black;
+    border-radius: 0 0 10px 10px;
+}
+
+nav {
+    background-color: #FFE8D6;
+    color: #6B705C;
+    border-radius: 0 0 10px 10px;
+}
+
+a 
+{
+    color: #404336;
+    font-weight: 800;
+}
+
+h1, h2, h3, h4
+{
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+h2
+{
+    font-size: 1.8em;
+}
+
+p, li
+{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+}
+
+ul
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+}
+
+nav li
+{
+    list-style: none;
+}
+
+
+main
+{
+    text-align: left;
+}
+
+.scenarios li {
+    padding: 1em;
+    list-style: decimal;
+}
+
+.colors 
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1em;
+}
+
+#color1 
+{
+    background-color: #CB997E;
+    padding: 2em;
+}
+
+
+#color2
+{
+    background-color: #FFE8D6;
+    padding: 2em;
+}
+
+#color3
+{
+    background-color: #B7B7A4;
+    padding: 2em;
+}
+
+#color4
+{
+    background-color: #A5A58D;
+    padding: 2em;
+}
+
+#color5
+{
+    background-color: #6B705C;
+    padding: 2em;
+    color: #FFE8D6;
+}
