@@ -5,6 +5,7 @@
         margin: auto;
     }
 
+
     section {
         margin: .3em;
     }
@@ -24,7 +25,6 @@
         grid-column: 3/4;
         grid-row: 1/5;
         height: 98%;
-        padding: .5em;
     }
 
     #spotlight3 {
