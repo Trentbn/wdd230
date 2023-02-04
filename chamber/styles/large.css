@@ -1,6 +1,6 @@
 @media only screen and (min-width: 64rem){
     main {
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 1fr 3fr 1fr;
         gap: .5em;
         margin: auto;
     }
@@ -9,6 +9,18 @@
     section {
         margin: .3em;
     }
+
+    section div {
+        max-height: 350px;
+    }
+
+    banner {
+        padding: 1em;
+        text-align: center;
+        height: 2em;
+        display: block;
+    }
+  
      
     #event {
         grid-column: 1/2;
@@ -19,12 +31,33 @@
         grid-column: 2;
         grid-row: 1/3;
         height: 100%;
+        max-height:max-content;
+    }
+
+    #hero button {
+        top: 90%;
+        width: 10em;
+        
+    }
+
+    #hero img {
+        height: 100%;
     }
 
     #spotlights {
         grid-column: 3/4;
         grid-row: 1/5;
-        height: 98%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #spotlights img {
+        max-height: 5em;
+    }
+
+    #spotlights div {
+        padding: .5em;
+        line-height: 1em;
     }
 
     #spotlight3 {
