@@ -16,8 +16,8 @@ p {
     font-family: 'Open Sans', sans-serif;;
 }
 
-banner  {
-    display: inline;
+#banner  {
+    display: block;
 }
 header, footer 
 {
@@ -123,7 +123,6 @@ nav ul.open {
 
 section {
     width: 92%;
-    background-color: none;
     margin: .5em;
     padding: 1em;
     background-color: #6B705C;

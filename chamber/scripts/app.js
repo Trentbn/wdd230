@@ -16,3 +16,17 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"
 }).format(now);
 dateField.innerHTML = `<em>${fulldateUK}</em>`;
+
+    const banner = document.getElementById('banner');
+
+    let day = new Date().getDay();
+
+    if (day == 1) {
+        
+        banner.style.display = "block";
+    }
+    else if (day == 2) {
+        banner.style.display = "block";
+    }
+    else banner.style.display = "none";
+

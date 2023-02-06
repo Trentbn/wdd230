@@ -10,7 +10,7 @@
         width: auto;
     }
 
-    banner {
+    #banner {
         padding: 1em;
         text-align: center;
         height: 2em;
@@ -46,5 +46,10 @@
         display:block;
         grid-column: 1/3;
         grid-row: 4;
+        margin: .5em;
+        padding: 1em;
+        background-color: #6B705C;
+        color: white;
+        text-align: center;
     }
 }
