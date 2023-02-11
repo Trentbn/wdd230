@@ -31,18 +31,15 @@
         grid-column: 2;
         grid-row: 1/3;
         height: 100%;
-        max-height:max-content;
     }
 
     #hero button {
-        top: 90%;
-        width: 10em;
+        top: 50%;
         
     }
 
     #hero img {
-        height: 100%;
-    }
+    width: 100%;    }
 
     #spotlights {
         grid-column: 3/4;
