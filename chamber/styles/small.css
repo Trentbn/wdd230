@@ -23,7 +23,7 @@ header, footer
 {
     padding: 1em;
     background-color: #6B705C;
-    color: #FFE8D6;
+    color: white;
 }
 
 footer {
@@ -54,7 +54,7 @@ header a {
 
 nav {
     background-color: #FFE8D6;
-    color: #6B705C;
+    color: black;
     border-radius: 0 0 10px 10px;
     grid-column: 1/4;
 }
@@ -70,7 +70,7 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #333;
+    color: black;
     border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 
@@ -88,7 +88,7 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 2rem;
-    color: #555;
+    color: black;
 }
 
 nav ul {
@@ -165,12 +165,7 @@ main {
     width: 95%;
 }
 
-section div {
 
-    margin: auto;
-    margin-top: auto;
-    background-color: #B7B7A4;
-}
 
 #join {
     display: none;
@@ -181,7 +176,7 @@ section div {
     border-radius: 10px 10px 0 0;
 	padding: 0.75rem;
 	background-color:#FFE8D6;
-    color: #6B705C;
+    color: black;
     grid-column: 1/4;
     grid-row: 3;
     text-align: center;
@@ -243,6 +238,20 @@ section div {
 
 
 /* Spotlight Section */
+
+section div {
+
+    margin: auto;
+    margin-top: auto;
+    border: 7px solid #FFE8D6;
+    border-radius: 5px;
+}
+
+
+
+#spotlights h2 {
+    
+}
 
 /* Spotlight 1 */
 
