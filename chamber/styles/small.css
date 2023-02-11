@@ -150,6 +150,10 @@ header p {
     margin-top: 0;
 }
 
+#spotlights a:visited {
+    color: white;
+}
+
 
 
 
