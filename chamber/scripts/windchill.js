@@ -13,11 +13,7 @@ function WindChillCalculator(tempature, windspeed) {
     return Math.round(windChill)
 }
 
-if (temp >= 50) {
-    chill.textContent = "N/A";
-}
-
-else if (wind < 3) {
+if (temp >= 50 && wind < 3) {
     chill.textContent = "N/A";
 }
 
