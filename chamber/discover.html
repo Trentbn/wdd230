@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Description"
+      content="This is the discover page for The Mountain Chamber of Commerce. Here you will statistical and demographic data about our city."
+    />
+    <title>Discover Page</title>
+    <link rel="icon" href="favicon.ico" />
+    <link href="styles/small.css" rel="stylesheet main" />
+    <link href="styles/medium.css" rel="stylesheet medium" />
+    <link href="styles/large.css" rel="stylesheet large" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- HEADER HERE -->
+    <header>
+      <img src="images/mountain_logo.webp" alt="Mountain Logo" />
+      <h1>The Mountain</h1>
+      <p>Chamber of Commerce</p>
+      <div id="headerDate"></div>
+      <a href="https://www.instagram.com/"
+        ><img
+          class="socials"
+          src="images/insta_logo_2.png"
+          alt="Instagram logo"
+      /></a>
+      <a href="https://www.facebook.com/"
+        ><img
+          class="socials"
+          src="images/facebook_logo.png"
+          alt="Facebook logo"
+      /></a>
+      <nav>
+        <button id="hamburger"><span>&#9776;</span><span>X</span></button>
+
+        <ul id="primaryNav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#" class="active">Discover</a></li>
+          <li><a href="#">Design</a></li>
+          <li><a href="#">Design</a></li>
+        </ul>
+      </nav>
+    </header>
+    <script src="scripts/app.js"></script>
+
+    <!-- MAIN CONTENT HERE -->
+    <main class="discover">
+      <h2>Discover Utah Valley</h2>
+      <h3 id="lastVisited">Welcome Back! Last Visited:<span id="visits"></span></h3>
+      
+          <picture>
+            <img src="images/career_image_800.jpg" alt="mountain with fog" loading="lazy"/>
+          </picture>
+          <p class="right">
+            Welcome to Utah Valley! Utah Valley is home to beautiful mountians, a strong commmunity,
+            great career and business options, and plenty of options for outdoor exploration!
+          </p>
+
+          <picture>
+            <img src="images/hiking800.jpg" alt="girl hiking" loading="lazy"/>
+          </picture>
+          <p class="left" id="two">
+            Utah Valley has plenty of outdoor options for hiking and exploring. These days 
+            we all know the importance of time in nature away from the hustle and bustle. Here
+            in Utah there's no shortage of beautiful nature scenes to explore
+          </p>
+
+          <picture>
+            <img src="images/art_image_800.jpg" alt="art gallery" loading="lazy"/>
+          </picture>
+          <p class="right" id="3">
+            Art is a vital part to any commmunity. Utah Valley is home to wonderful art and artists, and
+            full of places to enjoy beautiful artwork.
+          </p>
+
+          <picture>
+            <img src="images/coffeeshop_image_800.jpg" alt="coffes shop" loading="lazy"/>
+          </picture>
+          <p class="left" id="p5">
+            Utah valley is home to a thriving economy, with plenty of small businessess and
+            oppurtinity for growth in the community.
+          </p>
+
+
+          <picture>
+            <img src="images/community_restuarant_800.jpg" alt="" loading="lazy"/>
+          </picture>
+          <p class="left" id="p5">
+            A strong sense of community is the backbone to any place one calls home. Community is important
+            for a societies well being as well as economy
+          </p>
+
+          <h2>Facts, Demographics, and Statistics</h2>
+          <h3>Population</h3>
+          <ul>
+            <li>Utah Valley's population is over 600,000 people, with Provo being the largest
+              city in the county
+            </li>
+          </ul>
+
+          <h3>Education</h3>
+          <ul>
+            <li>Utah Valley University and Brigham Young University, The two largest universities
+               in the state of Utah, are located in Utah Valley
+            </li>
+          </ul>
+
+          <h3>Economy</h3>
+          <ul><li>The north part of Utah Valley is considered "Silicon Slopes",
+            which includes headquarters for many prominent technology companies
+          </li></ul>
+
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+      <img src="images/mountain_logo.webp" alt="Mountain Logo" />
+      <h3>The Mountain Chamber of Commerce</h3>
+      <p id="address">10 Rue De La Paix Timbuktu, Mali 999</p>
+      <p class="email">info@timbuktucc.org</p>
+      <p>(702) 123-4566</p>
+      <p id="location">Location Map</p>
+      &copy; <span id="currentyear"></span> The Mountain Chamber | Trent Nelson
+      | WDD230 Project | Last Updated: <span id="lastupdated"></span>
+    </footer>
+  </body>
+</html>

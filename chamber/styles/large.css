@@ -97,25 +97,9 @@
 
     /* DISCOVER PAGE */
 
-    #discoverContainer {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1em ;
+    main.discover {
+        width: 50%;
     }
-
-    #discoverContainer img {
-        max-width: 50%;
-    }
-
-    .outdoors {
-        grid-column: 1/3;
-    }
-
-    .outdoors img {
-        max-width: 50%;
-        }
-    
-        
     /* JOIN PAGE */
 
     main#joinPage {

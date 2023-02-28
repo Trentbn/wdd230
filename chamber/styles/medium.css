@@ -66,12 +66,16 @@
     }
 
     /* DISCOVER PAGE */
+
      .discover {
         display: block;
     }
     #discoverSection {
         display: block;
-        
+    }
+
+    .discover img:hover {
+        box-shadow: 0 0 50px #333;
     }
 
     /* JOIN PAGE */
