@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="This is the home page for The Mountain Chamber of Commerce. Here you will find our services as well as events within the community.">
+    <title>The Mountain Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico">
+    <link href="styles/small.css" rel="stylesheet main"/>
+    <link href="styles/medium.css" rel="stylesheet medium"/>
+    <link href="styles/large.css" rel="stylesheet large"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+    
+<body>
+    <div id="banner">🤝🏼Come join us for the Chamber meet and greet Wednesday at 7:00 pm</div>
+
+<!-- HEADER HERE -->
+    <header>
+        <img src="images/mountain_logo.webp" alt="Mountain Logo">
+        <h1>The Mountain</h1>
+        <p>Chamber of Commerce</p>
+        <div id="headerDate"></div>
+        <a href="https://www.instagram.com/"><img class= "socials" src="images/insta_logo_2.png" alt="Instagram logo"></a>
+        <a href="https://www.facebook.com/"><img class= "socials" src="images/facebook_logo.png" alt="Facebook logo"></a>
+        <nav>
+            <button id="hamburger"><span>&#9776;</span><span>X</span></button>
+    
+            <ul id="primaryNav">
+                <li><a href = # class="active">Home</a></li>
+                <li><a href ="discover.html">Discover</a></li>
+                <li><a href = #>Design</a></li>
+                <li><a href = #>Design</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+<!-- MAIN CONTENT HERE -->
+    <main id="joinPage">
+        <h2>Join Us!</h2>
+
+        <form  method="get" action="thankyou.html">
+            <fieldset>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Cell Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="youremail@site.com" required></label>
+            
+                
+                <label class="top">Position Title <input type="text" name="positionTitle" pattern="[A-Za-z\-\s]{7,}"></label>
+                <label class="top">Business Name* <input type="text" name="title" required></label>
+                <label>Business Description <textarea id="descriptionBox" type="text" name="description"></textarea>
+                
+                <label class="sbs"><input type="radio" name="plan" value="np"> Non Profit Membership</label>
+                <label class="sbs"><input type="radio" name="plan" value="bronze"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="plan" value="silver"> Silver Membership</label>
+                <label class="sbs"><input type="radio" name="plan" value="gold"> Gold Membership</label>
+
+            <input class="submitBtn" type="submit" value="Join Us">
+        </fieldset>
+
+        </form>
+
+        <div id="membershipBenefits">
+
+            <h2>NP Membership</h2>
+            <p class="price">Free!</p>
+            <p>24/7 Support</p>
+            <p>Community Event Access</p>
+
+            <h2>Bronze Membership</h2>
+            <p class="price">$19.99/mo</p>
+            <p>24/7 Support</p>
+            <p>Community Event Access</p>
+            <p>Funding</p>
+
+            <h2>Silver Membership</h2>
+            <p class="price">$25/mo</p>
+            <p>24/7 Support</p>
+            <p>Community Event Access</p>
+            <p>Funding</p>
+            <p>Training</p>
+            <p>Event Discounts</p>
+
+            <h2>Gold Membership</h2>
+            <p class="price">$28.99/mo</p>
+            <p>24/7 Support</p>
+            <p>Community Event Access</p>
+            <p>Funding</p>
+            <p>Event Discounts</p>
+            <p>Training</p>
+            <p>Spotlight advertising on site</p>
+
+
+        </div>
+            
+    </main>
+
+<!-- FOOTER HERE -->
+    <footer>
+        <img src="images/mountain_logo.webp" alt="Mountain Logo">
+        <h3>The Mountain Chamber of Commerce</h3>
+        <p id="address">10 Rue De La Paix Timbuktu, Mali 999</p>
+        <p class="email">info@timbuktucc.org</p>
+        <p>(702) 123-4566</p>
+        <p id="location">Location Map</p>
+        &copy; <span id="currentyear"></span> The Mountain Chamber | Trent Nelson | WDD230 Project | Last Updated: <span id="lastupdated"></span>
+  </footer>
+    
+  <script src="app.js"></script>
+</body>
+</html>
