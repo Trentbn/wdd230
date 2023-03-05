@@ -126,7 +126,7 @@ nav ul.open {
 }
 
 section {
-    width: 92%;
+    width: auto;
     margin: .5em;
     padding: 1em;
     background-color: #6B705C;
@@ -362,4 +362,44 @@ form input.submitBtn {
 
 div#membershipBenefits {
     display: none;
+}
+
+/* ----- DIRECTORY PAGE ----- */
+
+main.directory {
+    display: block;
+}
+
+div.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+div.cards img {
+    max-width: 100%;
+}
+
+div.cards section {
+    margin: 1em;
+    border-radius: 10px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section img {
+    display: none;
+}
+
+div.viewSelector {
+    display: flex;
+    flex-direction: row;
+}
+
+.viewSelector button {
+    width: 50%;
+    height: 50px;
+    background-color: #FFE8D6;
 }

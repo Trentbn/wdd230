@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="This is the home page for The Mountain Chamber of Commerce. Here you will find our services as well as events within the community.">
+    <title>The Mountain Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico">
+    <link href="styles/small.css" rel="stylesheet main"/>
+    <link href="styles/medium.css" rel="stylesheet medium"/>
+    <link href="styles/large.css" rel="stylesheet large"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+    
+<body>
+    <div id="banner">🤝🏼Come join us for the Chamber meet and greet Wednesday at 7:00 pm</div>
+
+<!-- HEADER HERE -->
+    <header>
+        <img src="images/mountain_logo.webp" alt="Mountain Logo">
+        <h1>The Mountain</h1>
+        <p>Chamber of Commerce</p>
+        <div id="headerDate"></div>
+        <a href="https://www.instagram.com/"><img class= "socials" src="images/insta_logo_2.png" alt="Instagram logo"></a>
+        <a href="https://www.facebook.com/"><img class= "socials" src="images/facebook_logo.png" alt="Facebook logo"></a>
+        <nav>
+            <button id="hamburger"><span>&#9776;</span><span>X</span></button>
+    
+            <ul id="primaryNav">
+                <li><a href = "index.html">Home</a></li>
+                <li><a href ="discover.html">Discover</a></li>
+                <li><a href = "join.html">Join</a></li>
+                <li><a href = # class="active">Directory</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+<!-- MAIN CONTENT HERE -->
+    <main class="directory">
+        <div class="viewSelector">
+            <button id="gridButton">Grid View</button>
+            <button id="listButton">List View</button>
+        </div>
+
+        <div class="cards"></div>
+
+
+        
+
+
+
+
+
+
+    </main>
+
+<!-- FOOTER HERE -->
+    <footer>
+        <img src="images/mountain_logo.webp" alt="Mountain Logo">
+        <h3>The Mountain Chamber of Commerce</h3>
+        <p id="address">10 Rue De La Paix Timbuktu, Mali 999</p>
+        <p class="email">info@timbuktucc.org</p>
+        <p>(702) 123-4566</p>
+        <p id="location">Location Map</p>
+        &copy; <span id="currentyear"></span> The Mountain Chamber | Trent Nelson | WDD230 Project | Last Updated: <span id="lastupdated"></span>
+  </footer>
+
+    <script src="scripts/app.js"></script>    
+    <script src="scripts/directory.js"></script>
+    <script src="scripts/view.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+{
+    "businesses": [
+        {
+            "name": "Grocery Delivery",
+            "address": "123 made up lane, American Fork UT, United States",
+            "phone": "(801) 123-6789",
+            "website": "placeholder.url",
+            "membershipLevel": "Gold",
+            "logo": "images/ImagePlaceholder.png"
+        },
+        {
+            "name": "Board Shop",
+            "address": "123 made up lane, American Fork UT, United States",
+            "phone": "(801) 123-6789",
+            "website": "placeholder.url",
+            "membershipLevel": "Gold",
+            "logo": "images/ImagePlaceholder.png"
+        },
+        {
+            "name": "Daycare",
+            "address": "123 made up lane, American Fork UT, United States",
+            "phone": "(801) 123-6789",
+            "website": "placeholder.url",
+            "membershipLevel": "Gold",
+            "logo": "images/ImagePlaceholder.png"
+        },
+        {
+            "name": "Rim Revive",
+            "address": "123 made up lane, American Fork UT, United States",
+            "phone": "(801) 123-6789",
+            "website": "placeholder.url",
+            "membershipLevel": "Silver",
+            "logo": "images/ImagePlaceholder.png"
+        },
+        {
+            "name": "Tad Paints",
+            "address": "123 made up lane, American Fork UT, United States",
+            "phone": "(801) 123-6789",
+            "website": "placeholder.url",
+            "membershipLevel": "Silver",
+            "logo": "images/ImagePlaceholder.png"
+        },
+        {
+            "name": "Mobile Mechanic",
+            "address": "123 made up lane, American Fork UT, United States",
+            "phone": "(801) 123-6789",
+            "website": "placeholder.url",
+            "membershipLevel": "Bronze",
+            "logo": "images/ImagePlaceholder.png"
+        },
+        {
+            "name": "Corner Coffee",
+            "address": "123 made up lane, American Fork UT, United States",
+            "phone": "(801) 123-6789",
+            "website": "placeholder.url",
+            "membershipLevel": "Bronze",
+            "logo": "images/ImagePlaceholder.png"
+        },
+        {
+            "name": "Mate Cafe",
+            "address": "123 made up lane, American Fork UT, United States",
+            "phone": "(801) 123-6789",
+            "website": "placeholder.url",
+            "membershipLevel": "Bronze",
+            "logo": "images/ImagePlaceholder.png"
+        },
+        {
+            "name": "Bryan Door & Hardware",
+            "address": "123 made up lane, American Fork UT, United States",
+            "phone": "(801) 123-6789",
+            "website": "placeholder.url",
+            "membershipLevel": "Gold",
+            "logo": "images/ImagePlaceholder.png"
+        }
+    ]
+}
