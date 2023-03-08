@@ -61,11 +61,11 @@
 
         <section id="weather">
             <h2>Weather</h2>
-            <img src="images/weathersymbol2.png" alt="weather symbol with clouds">
-            <h3>Partly Cloudy</h3>
+            <img id="weatherIcon" src="images/weathersymbol2.png" alt="weather symbol with clouds">
+            <h3 id="weatherDescription">Partly Cloudy</h3>
             <ul>
-                <li>Tempature: <span id="tempature">45</span>&deg;F</li>
-                <li>Wind Speed: <span id="wind">7</span>MPH</li>
+                <li>Tempature: <span id="tempature"></span>&deg;F</li>
+                <li>Wind Speed: <span id="wind"></span>MPH</li>
                 <li>Wind Chill: <span id="chill"></span></li>
             </ul>
         </section>
@@ -117,10 +117,11 @@
         <p>(702) 123-4566</p>
         <p id="location">Location Map</p>
         &copy; <span id="currentyear"></span> The Mountain Chamber | Trent Nelson | WDD230 Project | Last Updated: <span id="lastupdated"></span>
+        <p>Weather information source: <a href="https://openweathermap.org">OpenWeather</a></p>
   </footer>
 
   <script src="scripts/app.js"></script>
-  <script src="scripts/windchill.js"></script>
+  <script src="scripts/weather.js"></script>
     
 
     
