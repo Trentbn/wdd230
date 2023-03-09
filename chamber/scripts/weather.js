@@ -1,26 +1,13 @@
-const currentTemp = document.querySelector('#tempature');
-const currentWind = document.querySelector("#wind");
-const wind = parseInt(currentWind);
-const temp = parseInt(currentTemp);
-
+const tempVariable = document.querySelector('#tempature');
+const windVariable = document.querySelector("#wind");
+const chillVariable = document.getElementById("chill");
+let tempature = 0;
+let wind = 0;
 const weatherIcon = document.querySelector('#weatherIcon');
 const weatherDescription = document.querySelector('#weatherDescription');
 
 
-function WindChillCalculator(tempature, windspeed) {
-    windChill = 
-    35.74 + (0.6215 * tempature) - (35.75 * windspeed ** 0.16) + (0.4275 * tempature * windspeed ** 0.16);
-    return Math.round(windChill)
-}
 
-if (temp >= 50 && wind < 3) {
-    chill.textContent = "N/A";
-}
-
-else {
-    chill.textContent = WindChillCalculator(temp, wind);
-    
-}
 
 
 
@@ -46,7 +33,9 @@ apiFetch();
 
 function displayResults(weatherData)
 {
-  currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+
+  tempVariable.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+  tempature = weatherData.main.temp;
 
   const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
   const description = weatherData.weather[0].description;
@@ -54,6 +43,23 @@ function displayResults(weatherData)
   weatherIcon.setAttribute("src", iconsrc);
   weatherIcon.setAttribute("alt", description);
   weatherDescription.textContent = description;
-  currentWind.textContent = weatherData.wind.speed.toFixed(0);
+  windVariable.textContent = weatherData.wind.speed.toFixed(0);
+  wind = weatherData.wind.speed;
 
+  if (tempature >= 50 || wind < 3) {
+    chillVariable.textContent = "N/A";
+  }
+  
+  else {
+    chillVariable.textContent = WindChillCalculator(tempature, wind);
+    
+  }
+  
+}
+
+function WindChillCalculator(tempature, windspeed) 
+{
+  windChill = 
+  35.74 + (0.6215 * tempature) - (35.75 * windspeed ** 0.16) + (0.4275 * tempature * windspeed ** 0.16);
+  return Math.round(windChill)
 }
