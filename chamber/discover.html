@@ -51,15 +51,14 @@
         </ul>
       </nav>
     </header>
-    <script src="scripts/app.js"></script>
 
     <!-- MAIN CONTENT HERE -->
     <main class="discover">
       <h2>Discover Utah Valley</h2>
-      <h3 id="lastVisited">Welcome Back! Last Visited:<span id="visits"></span></h3>
+      <h3 id="lastVisited">Welcome Back! Last Visited: <span id="visits"></span></h3>
       
           <picture>
-            <img src="images/career_image_800.jpg" alt="mountain with fog" loading="lazy"/>
+            <img  src="images/ImagePlaceholder.png" data-src="images/career_image_800.jpg" alt="mountain with fog" loading="lazy"/>
           </picture>
           <p class="right">
             Welcome to Utah Valley! Utah Valley is home to beautiful mountians, a strong commmunity,
@@ -67,7 +66,7 @@
           </p>
 
           <picture>
-            <img src="images/hiking800.jpg" alt="girl hiking" loading="lazy"/>
+            <img src="images/ImagePlaceholder.png" data-src="images/hiking800.jpg" alt="girl hiking" loading="lazy"/>
           </picture>
           <p class="left" id="two">
             Utah Valley has plenty of outdoor options for hiking and exploring. These days 
@@ -76,7 +75,7 @@
           </p>
 
           <picture>
-            <img src="images/art_image_800.jpg" alt="art gallery" loading="lazy"/>
+            <img src="images/ImagePlaceholder.png" data-src="images/art_image_800.jpg" alt="art gallery" loading="lazy"/>
           </picture>
           <p class="right" id="3">
             Art is a vital part to any commmunity. Utah Valley is home to wonderful art and artists, and
@@ -84,7 +83,7 @@
           </p>
 
           <picture>
-            <img src="images/coffeeshop_image_800.jpg" alt="coffes shop" loading="lazy"/>
+            <img src="images/ImagePlaceholder.png" data-src="images/coffeeshop_image_800.jpg" alt="coffes shop" loading="lazy"/>
           </picture>
           <p class="left" id="p5">
             Utah valley is home to a thriving economy, with plenty of small businessess and
@@ -93,7 +92,7 @@
 
 
           <picture>
-            <img src="images/community_restuarant_800.jpg" alt="" loading="lazy"/>
+            <img src="images/ImagePlaceholder.png" data-src="images/community_restuarant_800.jpg" alt="" loading="lazy"/>
           </picture>
           <p class="left" id="p5">
             A strong sense of community is the backbone to any place one calls home. Community is important
@@ -133,5 +132,8 @@
       &copy; <span id="currentyear"></span> The Mountain Chamber | Trent Nelson
       | WDD230 Project | Last Updated: <span id="lastupdated"></span>
     </footer>
+
+    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/visit.js"></script>
   </body>
 </html>

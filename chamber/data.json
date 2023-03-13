@@ -1,76 +1,76 @@
 {
     "businesses": [
         {
-            "name": "Grocery Delivery",
-            "address": "123 made up lane, American Fork UT, United States",
-            "phone": "(801) 123-6789",
-            "website": "placeholder.url",
+            "name": "Rowley & Associates",
+            "address": "608 S 750 W Spanish Fork, UT 84660",
+            "phone": "801-820-0805",
+            "website": "https://www.rowleyassociatesinc.com",
             "membershipLevel": "Gold",
-            "logo": "images/ImagePlaceholder.png"
+            "logo": "images/directory_images/rowley&associates.png"
         },
         {
-            "name": "Board Shop",
-            "address": "123 made up lane, American Fork UT, United States",
-            "phone": "(801) 123-6789",
-            "website": "placeholder.url",
+            "name": "Issimo",
+            "address": "1633 W Innovation Way, STE 500, Lehi, UT 84043",
+            "phone": "801-443-4888",
+            "website": "https://issimo.co",
             "membershipLevel": "Gold",
-            "logo": "images/ImagePlaceholder.png"
+            "logo": "images/directory_images/issimo.png"
         },
         {
-            "name": "Daycare",
-            "address": "123 made up lane, American Fork UT, United States",
+            "name": "Tucanos Brazilian Grill",
+            "address": "545 E University Pkwy #109, Orem, UT 84057",
             "phone": "(801) 123-6789",
-            "website": "placeholder.url",
+            "website": "http://www.tucanos.com/",
             "membershipLevel": "Gold",
-            "logo": "images/ImagePlaceholder.png"
+            "logo": "images/directory_images/tucanos.png"
         },
         {
-            "name": "Rim Revive",
-            "address": "123 made up lane, American Fork UT, United States",
-            "phone": "(801) 123-6789",
-            "website": "placeholder.url",
+            "name": "Provo Beach",
+            "address": "4801 N University Ave #210, Provo, UT 84604",
+            "phone": "801-980-9617",
+            "website": "http://www.provobeach.com",
             "membershipLevel": "Silver",
-            "logo": "images/ImagePlaceholder.png"
+            "logo": "images/directory_images/provo_beach.png"
         },
         {
-            "name": "Tad Paints",
-            "address": "123 made up lane, American Fork UT, United States",
-            "phone": "(801) 123-6789",
-            "website": "placeholder.url",
+            "name": "Thanksgiving Point",
+            "address": "3003 N Thanksgiving Way, Leh, UT 84043",
+            "phone": "801.768.2300",
+            "website": "http://www.thanksgivingpoint.com/",
             "membershipLevel": "Silver",
-            "logo": "images/ImagePlaceholder.png"
+            "logo": "images/directory_images/thanksgiving_point.png"
         },
         {
-            "name": "Mobile Mechanic",
-            "address": "123 made up lane, American Fork UT, United States",
-            "phone": "(801) 123-6789",
-            "website": "placeholder.url",
+            "name": "Scenic",
+            "address": "328 South 1250 West, Lindon, UT 84042",
+            "phone": "801.796.0400",
+            "website": "http://www.ssiarts.com/",
             "membershipLevel": "Bronze",
-            "logo": "images/ImagePlaceholder.png"
+            "logo": "images/directory_images/scenic.png"
         },
         {
-            "name": "Corner Coffee",
-            "address": "123 made up lane, American Fork UT, United States",
-            "phone": "(801) 123-6789",
-            "website": "placeholder.url",
+            "name": "Costco",
+            "address": "648 East 800 South  Orem  UT  84097",
+            "phone": "(801) 851-5030",
+            "website": "http://www.costco.com/",
             "membershipLevel": "Bronze",
-            "logo": "images/ImagePlaceholder.png"
+            "logo": "images/directory_images/Costco.png"
         },
         {
-            "name": "Mate Cafe",
-            "address": "123 made up lane, American Fork UT, United States",
-            "phone": "(801) 123-6789",
-            "website": "placeholder.url",
+            "name": "Mercedes-Benz",
+            "address": "11548 Lone Peak Pkwy Draper Utah 84020",
+            "phone": "(801) 404-4320",
+            "website": "https://www.mbdraper.com/",
             "membershipLevel": "Bronze",
-            "logo": "images/ImagePlaceholder.png"
+            "logo": "images/directory_images/Mercedes.webp"
         },
         {
-            "name": "Bryan Door & Hardware",
-            "address": "123 made up lane, American Fork UT, United States",
-            "phone": "(801) 123-6789",
-            "website": "placeholder.url",
-            "membershipLevel": "Gold",
-            "logo": "images/ImagePlaceholder.png"
+            "name": "Self Help Homes",
+            "address": "63 N 400 W Provo UT 84601",
+            "phone": "(801) 375-2205",
+            "website": "https://www.selfhelphomes.org/",
+            "membershipLevel": "NP Membership",
+            "logo": "images/directory_images/self_help.png"
         }
     ]
 }
