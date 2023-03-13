@@ -146,6 +146,9 @@ h1 {
 h2 {
     font-weight: 700;
     color: #FFE8D6;
+    background-color: #6B705C;
+    border-radius: 5px;
+    padding: .5em;
 }
 
 header p {
