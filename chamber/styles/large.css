@@ -118,4 +118,11 @@
         display: block;
         grid-column: 2/3;
     }
+
+    /* --- DIRECTORY PAGE --- */
+
+    div.list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
