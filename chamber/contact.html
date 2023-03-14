@@ -34,30 +34,46 @@
                 <li><a href = "index.html">Home</a></li>
                 <li><a href ="discover.html">Discover</a></li>
                 <li><a href = "join.html">Join</a></li>
-                <li><a href = # class="active">Directory</a></li>
-                <li><a href = "contact.html">Contact Us</a></li>
+                <li><a href = "directory.html">Directory</a></li>
+                <li><a class="active" href = "contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
    
 <!-- MAIN CONTENT HERE -->
-    <main class="directory">
-        <div class="viewSelector">
-            <button id="gridButton">Grid View</button>
-            <button id="listButton">List View</button>
+    <main id="contactPage">
+        <h2 id="title".>Need to Contact Us?</h2>
+
+        <div id="contactInfo">
+            <section>
+                <h2>Contact Information</h2>
+                <p>The Mountain Chamber of Commerce</p>
+                <p>Address: 250 W 300 N American Fork, UT 84013</p>
+                <p>Office Hours: Mon-Fri 9am-5pm</p>
+                <p>Office Phone: 804-345-5432</p>
+            </section>
+
+
         </div>
 
-        <div class="cards"></div>
+        <form  method="get" action="thankyouContact.html">
+            <fieldset>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="youremail@site.com" required></label>
+            
+                <label class="top">Inquirie Subject <input type="text" name="subject"  required></label>
+                <label>Inquirie Description <textarea id="descriptionBox" name="description" required></textarea></label>
+                
+
+            <input class="submitBtn" type="submit" value="Send Message">
+        </fieldset>
+
+        </form>
 
 
-        
-
-
-
-
-
-
+            
     </main>
 
 <!-- FOOTER HERE -->
@@ -70,9 +86,7 @@
         <p id="location">Location Map</p>
         &copy; <span id="currentyear"></span> The Mountain Chamber | Trent Nelson | WDD230 Project | Last Updated: <span id="lastupdated"></span>
   </footer>
-
-    <script src="scripts/app.js"></script>    
-    <script src="scripts/directory.js"></script>
-
+    
+  <script src="scripts/app.js"></script>
 </body>
 </html>

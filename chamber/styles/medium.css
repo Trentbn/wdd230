@@ -83,5 +83,25 @@
         grid-column: 1/3;
     }
 
-    
+    /* CONTACT PAGE */
+
+
+    #contactPage #title {
+        grid-column: 1/3;
+        text-align: center;
+    }
+    #contactInfo {
+        grid-column: 2/3;
+        grid-row: 2;
+    }
+
+    #contactPage form {
+        grid-column: 1/2;
+    }
+
+    /* THANK YOU PAGES */
+
+    #thankyou {
+        display: block;
+    }
 }
