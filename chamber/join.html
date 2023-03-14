@@ -52,14 +52,15 @@
                 <label class="top">Email* <input type="email" name="email" placeholder="youremail@site.com" required></label>
             
                 
-                <label class="top">Position Title <input type="text" name="positionTitle" pattern="[A-Za-z\-\s]{7,}"></label>
+                <label class="top">Position Title <input type="text" name="positionTitle" pattern="[A-Za-z\s-]{7,}"></label>
                 <label class="top">Business Name* <input type="text" name="title" required></label>
-                <label>Business Description <textarea id="descriptionBox" type="text" name="description"></textarea>
+                <label>Business Description <textarea id="descriptionBox" name="description"></textarea></label>
                 
                 <label class="sbs"><input type="radio" name="plan" value="np"> Non Profit Membership</label>
                 <label class="sbs"><input type="radio" name="plan" value="bronze"> Bronze Membership</label>
                 <label class="sbs"><input type="radio" name="plan" value="silver"> Silver Membership</label>
                 <label class="sbs"><input type="radio" name="plan" value="gold"> Gold Membership</label>
+                <input id="date&time" type="hidden" name="Date&Time" value="">
 
             <input class="submitBtn" type="submit" value="Join Us">
         </fieldset>
