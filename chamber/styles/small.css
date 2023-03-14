@@ -258,32 +258,16 @@ header p {
 
 section div {
 
-    margin: auto;
-    margin-top: auto;
+    margin: 1em auto;
     padding: .5em;
     border: 7px solid #FFE8D6;
     border-radius: 5px;
 }
 
-
-
-#spotlights h2 {
-    
-}
-
-/* Spotlight 1 */
-
-#spotlight1 img
+#spotlight3 
 {
-    border-radius: 200px;
+    display: none;
 }
-
-/* spotlight 2 */
-
-#spotlight2 img {
-    border-radius: 30px;
-}
-
 /* Join section */
 
 #join button {
