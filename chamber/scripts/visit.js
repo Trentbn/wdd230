@@ -1,20 +1,22 @@
 let daysSince = Number(window.localStorage.getItem("lastVisited-ls"));
 
-let now = Date.now();
-let findDaysSince = now;
+const timestamp = Date.now(); // Get current timestamp in milliseconds
+const dayInMilliseconds = 24 * 60 * 60 * 1000; // Number of milliseconds in a day
+const dayInteger = Math.floor(timestamp / dayInMilliseconds); // Convert timestamp to integer representing the day
 
 if (daysSince !== 0)
 {
-    findDaysSince -= daysSince;
-    findDaysSince = Math.round(daysSince / (1000*60*60*24))
+    daysSince -= dayInteger;
  
-    if (findDaysSince > 1)
-        {
-            document.getElementById("visits").textContent = "${findDaysSince} days ago";
-        }
+
+    
+    document.getElementById("visits").textContent = `Your last visit was ${daysSince} days ago`;
+    
+
 }
 else
 {
-    document.getElementById("visits").textContent = "today";
+    document.getElementById("visits").textContent = "No days have passed since your last visit";
 }
-localStorage.setItem("lastVisted-ls", now);
+//document.getElementById("visits").textContent = "No days have passed since your last visit";
+localStorage.setItem("lastVisted-ls", dayInteger);

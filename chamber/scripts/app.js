@@ -30,5 +30,5 @@ dateField.innerHTML = `<em>${fulldateUK}</em>`;
     }
     else banner.style.display = "none";
 
-document.getElementById("date&time").setAttribute("value", Date.now());
+document.getElementById("date&time").textContent = fulldateUK;
 
