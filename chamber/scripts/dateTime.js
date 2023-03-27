@@ -12,6 +12,10 @@ document.getElementById('lastupdated').innerHTML = new Date(document.lastModifie
 ///document.getElementById("headerDate").innerHTML = new Date();///
 const dateField = document.getElementById("headerDate");
 const now = new Date();
+var hours = now.getHours();
+    var mins = now.getMinutes();
+    var seconds = now.getSeconds();
+    
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"
 }).format(now);
@@ -30,4 +34,5 @@ dateField.innerHTML = `<em>${fulldateUK}</em>`;
     }
     else banner.style.display = "none";
 
-document.getElementById("date&time").textContent = fulldateUK;
+document.getElementById("hiddenDate").value = fulldateUK;
+document.getElementById("hiddenTime").value = hours + ":" + mins + ":" + seconds;
