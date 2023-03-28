@@ -18,6 +18,7 @@
         <div id="socialsContainer">
             <a href="https://www.instagram.com/"><img class= "socials" src="images/insta_logo_2.png" alt="Instagram logo" ></a>
             <a href="https://www.facebook.com/"><img class= "socials" src="images/facebook_logo.png" alt="Facebook logo" ></a>
+            <a href="https://www.twitter.com/"><img id="twitter" class= "socials" src="images/twitterIcon.png" alt="Twitter logo" ></a>
         </div>
         <a href="index.html"><img id="logo" src="images/fruitlogo.png" alt="company Logo" height="70px"></a>
         <h1>Bountiful Foods</h1>
@@ -33,12 +34,62 @@
 
     <main>
         <section id="heroContainer">
-            <img src="images/lemons.jpg" alt="lemons on purple background">
+            <picture>
+                <source media="(min-width: 64rem)" srcset="images/lemon_slices_large.jpg">
+                <img src="images/lemons.jpg" alt="lemons on purple background">
+            </picture>
             <a href="fresh.html"><button>Make a Fresh smoothie!</button></a>
         </section>
 
+        <section id="orderInfoContainer">
+            <h2>Drink Order History</h2>
+            <p>Fresh Drinks ordered to date: 6</p>
+        </section>
+
+        <section id="sellingContainer">
+            <h2>Why choose Bountiful Foods?</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Voluptatem consequatur quibusdam at facere, blanditiis inventore 
+                mollitia dolore molestias repellat ipsa nemo reiciendis hic. 
+                Dolor, maxime at. Dolor inventore dignissimos praesentium?
+            </p>
+        </section>
+
+        
+
+        <section id="weatherContainer">
+            <h2>Carlsbad Weather Forecast</h2>
+            <div id="weatherInfo">
+                <p>Today</p>
+                <img src="images/partlyCloudy.jpeg" alt="partly Cloudy">
+                <p id="weatherDescription">Partly Cloudy</p>
+                <p id="tempature">35&#xb0;F</p>
+                <p id="humidity">65% Humidity</p>
+                <div id="threeDayForecast">
+                    <div id="weatherDay1">
+                        <p class="weatherDay">Monday</p>
+                        <img src="images/sunnyIcon.png" alt="sun icon">
+                        <p id="weatherDescription">Partly Cloudy</p>
+                        <p id="tempature">35&#xb0;F</p>
+                    </div>
+                    <div id="weatehrDay2">
+                        <p class="weatherDay">Tuesday</p>
+                        <img src="images/sunnyIcon.png" alt="sun icon">
+                        <p id="weatherDescription">Partly Cloudy</p>
+                        <p id="tempature">35&#xb0;F</p>
+                    </div>
+                    <div id="weatherDay3">
+                        <p class="weatherDay">Wednesday</p>
+                        <img src="images/sunnyIcon.png" alt="sun icon">
+                        <p id="weatherDescription">Partly Cloudy</p>
+                        <p id="tempature">35&#xb0;F</p>
+                    </div>
+            </div>
+        </section>
+
         <section id ="summaryContainer">
-            <h2>How it works</h2>
+            <h2>Summary Information</h2>
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima illum nihil expedita
                 tempore. Laudantium deleniti corporis, deserunt molestiae commodi quibusdam ducimus
@@ -46,9 +97,6 @@
             </p>
         </section>
 
-        <section id="weatherContainer">
-            <h2>Carlsbad Weather Forecast</h2>
-        </section>
     </main>
 
     <footer>

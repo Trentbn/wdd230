@@ -48,6 +48,11 @@ header
     height: 30px;
 }
 
+#twitter {
+    height: 32px;
+    border-radius: 25px;
+}
+
 #logo   {
     grid-column: 2;
     border-radius: 50px ;
@@ -100,10 +105,17 @@ footer {
 }
 
 /* --- MAIN CONTENT --- */
+section {
+    padding: .5em;
+    text-align: center;
+}
 
 /* HERO SECTION */
 #heroContainer {
     position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #8c86aa;
 }
 
 #heroContainer img {
@@ -122,12 +134,32 @@ footer {
     font-size: .75em;
 }
 
-#heroContainer a:hover {
-    background-color: #e8e5da;
-    color: #69647f;
+#heroContainer button:hover {
+    background-color:#69647f ;
+    color: #e8e5da;
+}
+
+/* ORDER INFO SECTION */
+#orderInfoContainer {
+    background-color: #8c86aa;
+    color: white;
+    margin-top: 0px;
+    border-radius: 0 0 25px 25px;
 }
 
 /* SUMMARY SECTION */
-#summaryContainer {
-    margin: 1em;
+
+/* WEATHER SECTION */
+
+#weatherContainer {
+    background-color: #c6a9b8;
+    color: white;
+}
+
+#threeDayForecast {
+    display: flex;
+}
+
+#threeDayForecast div img {
+    width: 50%;
 }
