@@ -18,4 +18,24 @@
         width: 50%;
         border-radius: 0 25px 25px 0;
     }
+
+    #sellingContainer div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: .5em;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #sellingContainer div img {
+        grid-row: 1;
+        align-self: center;
+        margin: 3em auto 1em
+    }
+
+    #sellingContainer div p {
+        max-width: 20em;
+        margin: auto;
+    }
 }

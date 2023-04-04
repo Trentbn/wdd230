@@ -1,6 +1,6 @@
 @media only screen and (min-width: 40rem)
 {
-    main {
+    main#homePage {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: .5em;
@@ -36,5 +36,9 @@
 
     #sellingContainer {
         grid-column: 1/3;
+    }
+
+    #weatherContainer {
+        border-radius: 25px;
     }
 }
