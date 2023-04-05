@@ -36,7 +36,7 @@
         <section id="heroContainer">
             <picture>
                 <source media="(min-width: 64rem)" srcset="images/lemon_slices_large.jpg">
-                <img src="images/lemons.jpg" alt="lemons on purple background">
+                <img data-src="images/lemons.jpg" src="../chamber/images/ImagePlaceholder.png"alt="lemons on purple background">
             </picture>
             <a href="fresh.html"><button>Make a Fresh smoothie!</button></a>
         </section>
@@ -49,18 +49,18 @@
         <section id="sellingContainer">
             <h2>Why choose Bountiful Foods?</h2>
             <div>
-                <img src="images/carrots.jpg" alt="vegatables on table">
+                <img data-src="images/carrots.jpg" src="../chamber/images/ImagePlaceholder.png" alt="vegatables on table">
                 <p>
                     We use only fresh fruits and vegatables grown by local farmers, so you can
                     know you're getting the highest quality produce possible
                 </p>
-                <img src="images/fruits_yellow_background.jpg" alt="assorted fruits on yellow background">
+                <img src="../chamber/images/ImagePlaceholder.png" data-src="images/fruits_yellow_background.jpg" alt="assorted fruits on yellow background">
                 <p>
                     All our products we make are grown in season. We also freeze produce
                     in the right season so you can enjoy it anytime of year while getting the maximum amount of
                     nutrients possible
                 </p>
-                <img src="images/smoothies.jpg" alt="multiple smoothies">
+                <img src="../chamber/images/ImagePlaceholder.png" data-src="images/smoothies.jpg" alt="multiple smoothies">
                 <p>
                     We value health over everything else, that means only raw organic ingredients with no added
                     sugars. Healthy is happy!
@@ -74,41 +74,42 @@
             <h2>Carlsbad Weather Forecast</h2>
             <div id="weatherInfo">
                 <p>Today</p>
-                <img src="images/partlyCloudy.jpeg" alt="partly Cloudy">
+                <img id="weatherIcon" src="../chamber/images/ImagePlaceholder.png" data-src="images/partlyCloudy.jpeg" alt="partly Cloudy">
                 <p id="weatherDescription">Partly Cloudy</p>
                 <p id="tempature">35&#xb0;F</p>
                 <p id="humidity">65% Humidity</p>
+
                 <div id="threeDayForecast">
                     <div id="weatherDay1">
                         <p class="weatherDay">Monday</p>
-                        <img src="images/sunnyIcon.png" alt="sun icon">
-                        <p id="weatherDescription">Partly Cloudy</p>
-                        <p id="tempature">35&#xb0;F</p>
+                        <img id="weatherIcon1" src="images/sunnyIcon.png" alt="sun icon">
+                        <p id="weatherDescription1">Partly Cloudy</p>
+                        <p id="tempature1">35&#xb0;F</p>
                     </div>
                     <div id="weatehrDay2">
                         <p class="weatherDay">Tuesday</p>
-                        <img src="images/sunnyIcon.png" alt="sun icon">
-                        <p id="weatherDescription">Partly Cloudy</p>
-                        <p id="tempature">35&#xb0;F</p>
+                        <img id="weatherIcon2" src="images/sunnyIcon.png" alt="sun icon">
+                        <p id="weatherDescription2">Partly Cloudy</p>
+                        <p id="tempature2">35&#xb0;F</p>
                     </div>
                     <div id="weatherDay3">
                         <p class="weatherDay">Wednesday</p>
-                        <img src="images/sunnyIcon.png" alt="sun icon">
-                        <p id="weatherDescription">Partly Cloudy</p>
-                        <p id="tempature">35&#xb0;F</p>
+                        <img id="weatherIcon3" src="images/sunnyIcon.png" alt="sun icon">
+                        <p id="weatherDescription3">Partly Cloudy</p>
+                        <p id="tempature3">35&#xb0;F</p>
                     </div>
             </div>
         </section>
 
         <section id ="summaryContainer">
             <h2>Visit Us in Carlsbad</h2>
-            <img src="images/beach.jpg" alt="picture of beach">
+            <img src="../chamber/images/ImagePlaceholder.png" data-src="images/beach.jpg" alt="picture of beach">
             <p>
                 Come say hello at our Carlsbad location! Grab a fresh smoothie as you explore our wonderful home of Carlsbad. Carlsbad is known for its beautiful beaches, 
                 including Carlsbad State Beach and South Ponto Beach, as well as its numerous golf 
                 courses and resorts.
             </p>
-            <img src="images/green_smoothie.jpg" alt="green smoothie">
+            <img src="../chamber/images/ImagePlaceholder.png" data-src="images/green_smoothie.jpg" alt="green smoothie">
             <p>
                 Enjoy the beautiful weather and scenery and feel good doing it with our delicious green smoothie!
             </p>
@@ -121,9 +122,16 @@
         <a href="index.html"><img id="logo" src="images/fruitlogo.png" alt="company Logo" height="70px"></a>
         <h2>Bountiful Foods</h2>
         <p>123 California Way Carlsbad, California</p>
+        <a href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1215,-117.357842,12z/data=!3m1!4b1!4m6!3m5!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24"><p id="location"> Location Map</p></a>
         <p>BountifulFoods@gmail.com</p>
         <p>712-346-6299</p>
+        <p>Last updated: <span  id="lastModified"></span></p>
     </footer>
+    
+    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/modified.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/forecast.js"></script>
     
 </body>
 </html>

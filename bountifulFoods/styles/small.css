@@ -213,6 +213,13 @@ section {
     margin: 1em 2em;
 }
 
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
 
 
 /* ORDER FORM */
@@ -220,7 +227,7 @@ form fieldset{
     margin: 2em auto;
     background-color: #c6a9b8;
     border: none;
-    border-radius: 10px;
+    border-radius: 25px;
     width: 100%;
     max-width: 90%;
     padding: .5em;
@@ -275,4 +282,6 @@ form input.submitBtn {
 #contactInfo {
     background-color: #8c86aa;
     color: white;
+    max-width: 50rem;
+    border-radius: 25px;
 }

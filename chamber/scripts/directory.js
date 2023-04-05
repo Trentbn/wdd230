@@ -38,6 +38,7 @@ const displayBusinesses = (businesses) => {
         card.appendChild(address);
         card.appendChild(phone);
         card.appendChild(site);
+        
         cards.appendChild(card);
 
     }

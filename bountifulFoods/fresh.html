@@ -35,47 +35,37 @@
     <main>
         <h2>Create your fresh fruit drink!</h2>
 
-        <form  method="get">
+        <form  id="fruitForm" method="get">
             <fieldset>
-                <label class="top">First Name* <input type="text" name="fname" required></label>
-                <label class="top">Last Name <input type="text" name="lname" ></label>
-                <label class="top">Cell Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-                <label class="top">Email* <input type="email" name="email" placeholder="youremail@site.com" required></label>
+                <label id="fname" class="top">First Name* <input id="nameInput"type="text" name="fname" required></label>
+                <label class="top">Last Name <input id="lnameInput" type="text" name="lname" ></label>
+                <label class="top">Cell Phone* <input id="phoneInput" type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Email* <input id="emailInput" type="email" name="email" placeholder="youremail@site.com" required></label>
                 
                 <fieldset>
                 <label for="fruit-selection">Choose your fruits:
-                    <select name="fruits" id="fruit-selection">
-                        <option value=""></option>
-                        <option value="banana">Banana</option>
-                        <option value="apple">Apple</option>
-                        <option value="mango">Mango</option>
+                    <select name="fruits" id="fruit-selection1">
+                        <option  value=""></option>
                     </select>
                 </label>
                 <label for="fruit-selection">Choose your fruits:
-                    <select name="fruits" id="fruit-selection">
-                        <option value=""></option>
-                        <option value="banana">Banana</option>
-                        <option value="apple">Apple</option>
-                        <option value="mango">Mango</option>
+                    <select name="fruits" id="fruit-selection2">
+                        <option  value=""></option>
                     </select>
                 </label>
                 <label for="fruit-selection">Choose your fruits:
-                    <select name="fruits" id="fruit-selection">
+                    <select name="fruits" id="fruit-selection3">
                         <option value=""></option>
-                        <option value="banana">Banana</option>
-                        <option value="apple">Apple</option>
-                        <option value="mango">Mango</option>
                     </select>
                 </label>
-                <label>Special Instructions <textarea id="instructions" name="instruction"></textarea></label>
+                <label>Special Instructions <textarea id="instructionsInput" name="instruction"></textarea></label>
                 </fieldset>
 
             <input class="submitBtn" type="submit" value="Create Smoothie">
         </fieldset>
-
         </form>
 
-        <section id="orderInfo">
+        <section class="hide" id="orderInfo">
             <h2>Order Information</h2>
             <div>
                 <h3>Your information</h3>
@@ -89,6 +79,7 @@
             <p id="selection1">Apple</p>
             <p id="selection2">Banana</p>
             <p id="selection3">Orange</p>
+            <p id="instructions"></p>
             <h3>Nutrition Information</h3>
             <p id="carbs">12g of Carbs</p>
             <p id="protiens">8g of protien</p>
@@ -104,9 +95,14 @@
         <a href="index.html"><img id="logo" src="images/fruitlogo.png" alt="company Logo" height="70px"></a>
         <h2>Bountiful Foods</h2>
         <p>123 California Way Carlsbad, California</p>
+        <a href="https://www.google.com/maps/place/Carlsbad,+CA/@33.1215,-117.357842,12z/data=!3m1!4b1!4m6!3m5!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939!16zL20vMHI0d24"><p id="location"> Location Map</p></a>
         <p>BountifulFoods@gmail.com</p>
         <p>712-346-6299</p>
+        <p>Last updated: <span  id="lastModified"></span></p>
+
     </footer>
     
+    <script src="scripts/fruits.js"></script>
+    <script src="scripts/modified.js"></script>
 </body>
 </html>
