@@ -208,7 +208,7 @@ section {
 
 #orderInfo {
     background-color: #8c86aa;
-    color: white;
+    color: black;
     border-radius: 25px;
     margin: 1em 2em;
 }
@@ -231,13 +231,12 @@ form fieldset{
     width: 100%;
     max-width: 90%;
     padding: .5em;
-    color:#6B705C;
 }
 
 form label {
     margin: 1.5em;
     display: block;
-    color: white;
+    color: black;
 }
 
 
@@ -281,7 +280,7 @@ form input.submitBtn {
 
 #contactInfo {
     background-color: #8c86aa;
-    color: white;
+    color: black;
     max-width: 50rem;
     border-radius: 25px;
 }
