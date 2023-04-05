@@ -63,11 +63,11 @@ form.addEventListener("submit", function(event)
     const instructionVar = document.querySelector("#instructions");
     const instructionInput = document.querySelector("#instructionsInput").value;
     
+    
 
     optionVar1.innerHTML = option1;
     optionVar2.innerHTML = option2;
     optionVar3.innerHTML = option3;
-    instructionVar = `Special instructions: ${instructionInput}`;
 
 
     
@@ -76,6 +76,8 @@ form.addEventListener("submit", function(event)
     nameVar.innerHTML = `${nameInput} ${lnameInput}`;
     phoneVar.innerHTML = phoneInput;
     emailVar.innerHTML = emailInput;
+
+    instructionVar.innerHTML = `Special Instructions: ${instructionInput}`;
 
     const now = new Date();
     var hours = now.getHours();

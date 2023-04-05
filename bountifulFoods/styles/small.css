@@ -76,7 +76,7 @@ header
     border-radius: 25px;
 }
 
-#logo   {
+.logo   {
     grid-column: 2;
     border-radius: 50px ;
     margin-top: 1em;
