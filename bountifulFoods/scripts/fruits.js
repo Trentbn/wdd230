@@ -70,9 +70,6 @@ form.addEventListener("submit", function(event)
     optionVar3.innerHTML = option3;
 
 
-    
-    
-    
     nameVar.innerHTML = `${nameInput} ${lnameInput}`;
     phoneVar.innerHTML = phoneInput;
     emailVar.innerHTML = emailInput;
