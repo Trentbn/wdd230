@@ -29,3 +29,7 @@ if ("IntersectionObserver" in window)   {
         loadImages(img);
       });
     }
+
+    let count = localStorage.getItem('formSubmitCount') || 0;
+
+document.querySelector('#drinkCount').textContent = count;
