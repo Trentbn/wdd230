@@ -32,9 +32,9 @@ async function apiFetch() {
   function displayResults(weatherData)
 {
 
-  tempVariable1.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-  tempVariable2.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-  tempVariable3.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+  tempVariable1.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}&#xb0;F</strong>`;
+  tempVariable2.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}&#xb0;F</strong>`;
+  tempVariable3.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}&#xb0;F</strong>`;
   const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
   const description = weatherData.weather[0].description;
 
